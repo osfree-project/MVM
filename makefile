@@ -12,4 +12,4 @@ srcfiles = $(p)dos$(e) $(p)emu$(e)
 ADD_COPT    = -i=$(MYDIR)include -d__ELF__ -dX86_EMULATOR
 STUB=$(FILESDIR)$(SEP)os2$(SEP)mdos$(SEP)os2stub.exe
 
-!include $(%ROOT)/mk/appsos2.mk
+!include $(%ROOT)tools/mk/appsos2.mk
